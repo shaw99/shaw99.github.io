@@ -1,0 +1,65 @@
+/* 加入交流群部分样式 */
+.group-section {
+    padding: 2rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.group-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.group-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.group-content {
+    text-align: center;
+}
+
+.group-title {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.group-description {
+    font-size: 0.95rem;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.group-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.group-links li {
+    margin: 0.5rem 0;
+}
+
+.group-links a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.group-links a:hover {
+    color: #2563eb;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .group-card {
+        padding: 1.5rem;
+    }
+}

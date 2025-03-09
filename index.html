@@ -1,695 +1,209 @@
 <!DOCTYPE html>
-<html lang="ch">
-
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <title>shaw的个人主页（防失联）</title>
-
-    <!-- Global stylesheets -->
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shaw的个人主页</title>
+    <link rel="stylesheet" href="./css/style_main.css">
+	<link rel="stylesheet" href="./css/style_tool.css">
+	<link rel="stylesheet" href="./css/style_buy.css">
+	<link rel="stylesheet" href="./css/style_group.css">
+	<style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-
-<body id="page-top">
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-        </span>
-      </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">首页</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#experience">安卓玩机工具箱</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">红魔系ROOT/ROM/流量卡</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#awards">交流群 欢迎加入</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">联系我</a>
-                </li>
-            </ul>
-        </div>
+<body>
+    <div class="gradient-bg"></div>
+    <nav class="navbar">
+        <img src="./image/头像.jpg" alt="头像" class="logo">
+        <div class="hamburger">☰</div>
+        <ul class="nav-links">
+            <li><a href="#tools">玩机工具箱</a></li>
+            <li><a href="#root">红魔全系ROOT</a></li>
+            <li><a href="#group">交流群</a></li>
+        </ul>
     </nav>
 
-    <div class="container-fluid p-0">
-
-    <!--====================================================
-                        ABOUT
-    ======================================================-->
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-          <div class="my-auto" >
-              <img src="img/logo-s.png" class="img-fluid mb-3" alt="">
-              <h1 class="mb-0">shaw
-                <span class="text-primary"> </span>
-              </h1>
-              <div class="subheading mb-5">防丢失以及 
-                  <a href="#">个人主页</a>
-              </div>
-			  <a href="https://shaw99.github.io/shawblog/">个人博客地址1：https://shaw99.github.io/shawblog/</a>
-			  </p>
-			  <a href="https://shaw0909-gitlab-io-shaw2521623-0038e34e81fd75776c54eee08084867d.gitlab.io">个人博客地址2：https://shaw0909-gitlab-io-shaw2521623-0038e34e81fd75776c54eee08084867d.gitlab.io</a>
-              </p>
-			  <p class="mb-5" style="max-width: 500px;" >请保存该页面，防止失联！具体项目请看左侧选项卡.</p>
-              <ul class="list-inline list-social-icons mb-0">
-                  <li class="list-inline-item">
-                      <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-                  </li>
-                  <li class="list-inline-item">
-                      <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-                  </li>
-              </ul>
-          </div>
-      </section>
-
-    <!--====================================================
-                        EXPERIENCE
-    ======================================================-->      
-      <section class="resume-section p-3 p-lg-5 " id="experience">
-          <div class="row my-auto">
-              <div class="col-12">
-                <h2 class="  text-center">安卓玩机工具箱</h2>
-                <div class="mb-5 heading-border"></div>
-              </div>
-              <div class="resume-item col-md-6 col-sm-12 " > 
-                <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                  <div class=" resume-content mr-auto">
-                      <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> 工具简介</h4>
-                      <p>一款个人开发的安卓玩机工具箱  作者：shaw<br><br>A personally developed Android toolbox by shaw.</p>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">2019 - Present</span>
-                  </div>
-                </div>  
-              </div>
-              <div class="resume-item col-md-6 col-sm-12">
-                <div class="card mx-0 p-4 mb-5" style="border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                  <div class="resume-content mr-auto">
-                      <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i>  运行平台</h4>
-                      <p>建议64位微软官方Windows10及以上.<br><br>Suggest 64 bit Microsoft official Windows 10 +.</p>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">2019 - Present</span>
-                  </div>
-                </div>  
-              </div>
-              <div class="resume-item col-md-6 col-sm-12">
-                <div class="card mx-0 p-4 mb-5" style="border-color: #28a745; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                  <div class="resume-content mr-auto">
-                      <h4 class="mb-3"><i class="fa fa-camera mr-3 text-success"></i> 软件功能</h4>
-                      <p>包括但不限于 投屏、读取设备信息、分区刷入、通用解锁/上锁BL、vivo解锁BL、联发科解锁BL、努比亚解刷写锁、分区插槽切换、sideload、临时启动boot/recovery、刷入指定分区、一键root、9008、解包打包、一键安装APP、一键安装magisk模块、一键修补boot、解包payload、解包frp、自定义修改分辨率、提取指定分区、冻结/解冻软件、高级重启等.</p>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">2024-10-01</span>
-                  </div>
-                </div>  
-              </div>
-              <div class="resume-item col-md-6 col-sm-12">
-                <div class="card mx-0 p-4 mb-5" style="border-color: #2196f3; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-                  <div class="resume-content mr-auto">
-                      <h4 class="mb-3"><i class="fa fa-area-chart mr-3 text-primary"></i> 最新版本</h4>
-                      <p>4.8.0  <br><br><a href="https://note.youdao.com/ynoteshare/index.html?id=3da64841859a0e9d2334c4d922733a57&type=note&_time=1697120814323">点击下载</a><br><br><br></p>
-                  </div>
-                  <div class="resume-date text-md-right">
-                      <span class="text-primary">2025-03-01</span>
-                  </div>
-                </div>  
-              </div>
-          </div>
-      </section>
-
-    <!--====================================================
-                    PORTFOLIO
-    ======================================================-->      
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio"> 
-        <div class="row my-auto">
-          <div class="col-12">
-            <h2 class="text-center">ROOT工具/移植ROM/流量卡</h2>
-            <div class="mb-5 heading-border"></div>
-          </div>
-          <div class="col-md-12">
-            <div class="port-head-cont">
-              <button class="btn btn-general btn-green filter-b" data-filter="all">All</button>
-              <button class="btn btn-general btn-green filter-b" data-filter="consulting">ROOT工具</button>
-              <button class="btn btn-general btn-green filter-b" data-filter="finance">ROM购买</button>
-              <button class="btn btn-general btn-green filter-b" data-filter="marketing">运营商官方大流量卡</button> 
+	<!-- 玩机工具箱部分 -->
+    <main class="content" id="tools">
+        <section class="tool-card">
+            <div class="card-header">
+                <h2><span class="icon">🛠️</span>安卓玩机工具箱</h2>
+                <span class="version-badge">v4.8.0</span>
             </div>
-          </div>
-        </div>
-        <div class="row my-auto">
-          <div class="col-sm-4 portfolio-item filter consulting">
-            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-              <div class="caption-port">
-                <div class="caption-port-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/p-6.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item filter marketing">
-            <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-              <div class="caption-port">
-                <div class="caption-port-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/p-5.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item filter finance">
-            <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-              <div class="caption-port">
-                <div class="caption-port-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/p-4.jpg" alt="">
-            </a>
-          </div>         
-          <div class="col-sm-4 portfolio-item filter finance">
-            <a class="portfolio-link" href="#portfolioModal9" data-toggle="modal">
-              <div class="caption-port">
-                <div class="caption-port-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/p-9.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 portfolio-item filter consulting">
-            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-              <div class="caption-port">
-                <div class="caption-port-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/p-1.jpg" alt="">
-            </a>
-          </div>		  
-        </div>
-      </section>
 
-    <!--====================================================
-                           AWARDS
-    ======================================================-->       
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-          <div class="row my-auto">
-              <div class="col-12">
-                <h2 class="  text-center">交流群</h2>
-                <div class="mb-5 heading-border"></div>
-              </div> 
-              <div class="main-award" id="award-box">
-                  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Android玩机交流群1</span>
-                          <h5 class="title">（已满）</h5>
-                          <a href="https://qm.qq.com/cgi-bin/qm/qr?k=4R3mJtAzXDHe4U_ZVsvVDj-GFYht-bTr&authKey=6mCljFnas%2FLathWFr%2FGwQjymEPZuVAhPDEsoL%2B6DQ%2FjT%2F2%2BL0bdtbxAzIdyHcjev&noverify=0&group_code=1082127643" target="_blank">点击加入1082127643</a>
-                      </div>
-                  </div>
-                  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Android玩机交流群2</span>
-                          <h5 class="title">（已满）</h5>
-                          <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IExY8ZxRagKc8rZ4OVXw5ueMKbSsY4Nm&authKey=zi3re24AIsukNGE0Ya0kBfBPmAcVoUZKLYvogVITi3SUgdUnfUGxaEnuVB9pN5Sg&noverify=0&group_code=700984915" target="_blank">点击加入700984915</a>
-                      </div>
-                  </div>
-				  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Android玩机交流群3</span>
-                          <h5 class="title">（已满）</h5>
-						  <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1GRwZg5JVEV-CNaczOcRddpb-eckhnHx&authKey=%2BhNGBU%2F6EpCgVAwX%2FHDsS96TuACPC%2FuJXe5bqEvNwWNX5WWVakV8wKXxV5XGAXyf&noverify=0&group_code=816719293" target="_blank">点击加入816719293</a>
-                      </div>
-                  </div>
-				  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Android玩机交流群4</span>
-                          <h5 class="title">（上述群满请加此群）</h5>
-						  <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=MwyROHIVit3iitl9wSvmRS7kUgL_AcVM&authKey=UrfRJcKst2aqt7ZHh%2FSWd9E56jVSlzPdr6nyQlopULkrE%2B9YMx2sV2Jl0IDYJ7Bc&noverify=0&group_code=584099985" target="_blank">点击加入584099985</a>
-                      </div>
-                  </div>
-				  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Android玩机交流群5</span>
-                          <h5 class="title">（上述群满请加此群）</h5>
-						  <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=lEi_SuiGfQmTF5A4__m4STcnls5RwvfJ&authKey=fA80NGejfdF3ByVsb6dP2G5nQLpn3qzPuwO5e7ec3CvPgJ48nxPR6fp4I8fXU8Lx&noverify=0&group_code=659813802" target="_blank">点击加入659813802</a>
-                      </div>
-                  </div>
-				  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Android玩机交流群6</span>
-                          <h5 class="title">（上述群满请加此群）</h5>
-						  <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ShnJC9Iv4Ug8pqu1MagVZ0AMSjMgeerL&authKey=FABWyx%2F5%2BhR%2F3FUvjKECzAGQbjQJ%2FxQGTS5fOfMXHa%2BQIZ%2FKaLd02wMp%2BdylRdXK&noverify=0&group_code=895516373" target="_blank">点击加入895516373</a>
-                      </div>
-                  </div>
-				  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">Android玩机交流群7</span>
-                          <h5 class="title">（未创建）</h5>
-						  <br>
-                          <p class="description">
-						      为防止失联、交流玩机内容、获取最新信息以及获取玩机工具，建议加入群聊
-							  <br>
-                              To prevent disconnection, exchange gameplay content, obtain the latest information, and access gameplay tools, it is recommended to join a group chat.
-                          </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section> 
+            <div class="card-body">
+                <!-- 简介 -->
+                <div class="info-block">
+                    <h3><span class="icon">📌</span>工具简介</h3>
+                    <p class="description">一款个人开发的安卓玩机工具箱 作者：shaw</p>
+                </div>
 
-    <!--====================================================
-                          CONTACT
-    ======================================================-->       
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column">
-          <div class="row my-auto" id="contact"> 
-            <div class="col-md-8">
-              <div class="contact-cont">
-                <h3>联系我</h3>
-                <div class="heading-border-light"></div>
-                <p>这个功能还没有写</p>
-				<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IExY8ZxRagKc8rZ4OVXw5ueMKbSsY4Nm&authKey=zi3re24AIsukNGE0Ya0kBfBPmAcVoUZKLYvogVITi3SUgdUnfUGxaEnuVB9pN5Sg&noverify=0&group_code=700984915" target="_blank">建议加入700984915</a>
-              </div>   
-              <div class="row con-form">
-                <div class="col-md-12">
-                  <input type="text" name="full-name" placeholder="Full Name" class="form-control">
-                </div>
-                <div class="col-md-12">
-                  <input type="text" name="email" placeholder="Email Id" class="form-control">
-                </div>
-                <div class="col-md-12">
-                  <input type="text" name="subject" placeholder="Subject" class="form-control">
-                </div>
-                <div class="col-md-12"><textarea name="" id=""></textarea></div>
-                <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-12 mt-5"> 
-              <div class="contact-cont2"> 
-                <div class="contact-add contact-box-desc">
-                  <h3><i class="fa fa-map-marker cl-atlantis fa-2x"></i> Address</h3>
-                  <p>SHANXI <br>
-                  CHINA <br></p>
-                </div>
-                <div class="contact-phone contact-side-desc contact-box-desc">
-                  <h3><i class="fa fa-phone cl-atlantis fa-2x"></i> QQ</h3>
-                  <p>shaw（非购买反馈相关请勿打扰） <br>1820894104</p>
-                </div>
-                <div class="contact-mail contact-side-desc contact-box-desc">
-                  <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
-                <address class="address-details-f"> 
-                  Email: <a href="mailto:1820894104@qq.com" class="">1820894104@qq.com</a>
-                </address>
-                <ul class="list-inline social-icon-f top-data">
-                  <li><a href="#" target="_empty"><i class="fa top-social fa-facebook" style="color: #4267b2; border-color:#4267b2;"></i></a></li>
-                  <li><a href="#" target="_empty"><i class="fa top-social fa-twitter" style="color: #4AB3F4; border-color:#4AB3F4;"></i></a></li>
-                  <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus" style="color: #e24343; border-color:#e24343;"></i></a></li> 
-                </ul>
-                </div>
-              </div>
-            </div> 
-          </div>
-      </section>
+                <!-- 平台信息 -->
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3><span class="icon">📱</span>运行平台</h3>
+                        <ul class="platform-list">
+                            <li>Windows10</li>
+                            <li>Windows11</li>
+                            <li>x64设备</li>
+                        </ul>
+                    </div>
 
-
-    </div>
-
-<!--====================================================
-                    PORTFOLIO MODALS
-======================================================-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
+                    <!-- 版本信息 -->
+                    <div class="info-card">
+                        <h3><span class="icon">🔄</span>最新版本</h3>
+                        <div class="version-info">
+                            <p class="version">v4.8.0<br><br>更新时间 2025.03.03<br><br></p>
+                            <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IExY8ZxRagKc8rZ4OVXw5ueMKbSsY4Nm&authKey=zi3re24AIsukNGE0Ya0kBfBPmAcVoUZKLYvogVITi3SUgdUnfUGxaEnuVB9pN5Sg&noverify=0&group_code=700984915" class="download-btn"target="_blank" rel="noopener noreferrer">下载最新版本</a>
+                        </div>
                     </div>
                 </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">红魔6系列第三方ROM</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/收款码.png" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>主移植ROM为redmagicOS6.0，群内MIUI、flyme均为附赠</p>
-                                <ul class="list-inline item-details">
-                                    <li>红魔6/6Pro/6sPro 费用50（停止招收新用户）
-                                        <strong>
-                                          <a href="#"><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=9_8gZXmyuPjuyl-abvfmF9wvULXEIzCZ&authKey=4nkbflZgD%2BnX%2BvK66uVcY3XZC2GCiIxXmTK965kYezVeB0hsAgfeyi8bdWqjgiKc&noverify=0&group_code=829559005" target="_blank">付款后点击加群，群号829559005</a></a>
-                                        </strong>
-                                    </li>
-									<br>
-                                    <li>交流群:
-                                        <strong>
-                                          <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IExY8ZxRagKc8rZ4OVXw5ueMKbSsY4Nm&authKey=zi3re24AIsukNGE0Ya0kBfBPmAcVoUZKLYvogVITi3SUgdUnfUGxaEnuVB9pN5Sg&noverify=0&group_code=700984915" target="_blank">点击加入700984915</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                              </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">运营商官方大流量卡推荐</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/p-5.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>运营商官方大流量卡，非物联卡，免费领取，月租9/19/29/39等，自行选择。</p>
-                                <ul class="list-inline item-details">
-                                    <li>领取链接:
-                                        <strong>
-                                          <a href="https://haokawx.lot-ml.com/Product/index/363935" target="_blank">点击领取，下单后请保存详情页！</a>
-                                        </strong>
-                                    </li>
-                                    <li>交流群:
-                                        <strong>
-                                          <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IExY8ZxRagKc8rZ4OVXw5ueMKbSsY4Nm&authKey=zi3re24AIsukNGE0Ya0kBfBPmAcVoUZKLYvogVITi3SUgdUnfUGxaEnuVB9pN5Sg&noverify=0&group_code=700984915" target="_blank">点击加入700984915</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">红魔全系列一键ROOT</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/收款码.png" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>买前必读!<br>
-<br>购买流程<br>
-1、仔细阅读说明。<br>
-2、按机型以及金额扫码付款。<br>
-3、付款后申请加入对应群，备注付款方式<br>
-4、商用请直接联系软件作者!（文章末尾）<br>
-<br>在购买前请详细阅读以下说明<br>
-1、除红魔8系列外，所有root工具均为免解锁工具，不影响指纹解锁，指纹支付等解锁会丢失的功能。红魔8系列可保留系统指纹。<br>
-2、本人制作的均没有单版本工具，只接受终身root，且只制作官方正式版。<br>
-3、不接受砍价，终身root在付费进群后不支持退款。<br>
-4、只提供root服务，框架等内容请自行刷入。<br>
-5、终身root一直维护到官方停止更新。<br>
-6、本人（shaw）未与任何人合作制作工具,请不要上当受骗。<br>
-7、终身root每台设备仅收费一次，后续不会有二次收费。<br>
-8、不回答，不解释任何与刷入root无关的问题!例如刷入模块操作不当造成不开机等。<br>
-9、不提供免费远程服务。<br>
-10、最终解释权归本人〈shaw）所有。<br>
-<br>PS;关于咨询后涨价，以红魔7s为例，首次咨询为原价，咨询后不买拖到第二天涨价10元，以此类推（如1月1日咨询但未购买1月5日再次咨询价格涨为109），不要浪费彼此的时间。<br>
-<br>补充说明:除红魔6r免解锁需要清楚数据，红魔8系列需要解锁BL清数据之外，其他机型理论上均可保留数据，但由于官方发包与OTA差异或者面具本身bug，可能会造成清数据的问题。<br>
-<br>2025年3月1日起 全系降价</p>
-                                <ul class="list-inline item-details">
-                                    <li>红魔5G/5S 终身55 -> 终身39
-                                        <strong>
-                                          <a href="#"><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=haO60MSsUvZ6NRANXfMCgswF2e-RuXlO&authKey=m7UoGRrvVymUjRXGlTjIsHVnRgh9JOzO0Ai80cOqwFDmlRTRCCB5mCQ0TI45r5dG&noverify=0&group_code=941298841" target="_blank">付款后点击加群，群号941298841</a></a>
-                                        </strong>
-                                    </li>
-                                    <li>红魔6/6Pro 终身55 -> 终身39
-                                        <strong>
-                                          <a href="#"><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=B5H_aPF7Ot4NXSaiXjGq8RpKmSR1tkiZ&authKey=jHMqNBHz4riwi%2FWFDKjZsjvPe4%2F6EyDF4Zba9i9pz5NjyUKjxozo4mrHBzVxAnqP&noverify=0&group_code=566727354" target="_blank">付款后点击加群，群号566727354</a></a>
-                                        </strong>
-                                    </li>
-                                    <li>红魔6r/6sPro 终身55 -> 终身39
-                                        <strong>
-                                          <a href="#"><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KsqAfe4NA359HEhrcPspsNazkSp4Nw8l&authKey=Uid647LkDQ8L%2FWkT1MC%2FcQa1fKmI68aj9IfFBHX24Y7JuHmrsD0WtaO9N5iP7pdG&noverify=0&group_code=864801579" target="_blank">付款后点击加群，群号864801579</a></a>
-                                        </strong>
-                                    </li>
-									<li>红魔7/7Pro 终身75 -> 终身49
-                                        <strong>
-                                          <a href="#"><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5ah7rPiAGS6ooEziJtvSSXO2lTTxXwDK&authKey=tflxuMGMcxmvbVMURLS0iVVnSK1n9gSCEufCmdt%2FHYr6%2FIZisb2nVtjkArwwj1Cd&noverify=0&group_code=703259424" target="_blank">付款后点击加群，群号703259424</a></a>
-                                        </strong>
-                                    </li>
-									<li>红魔7s/7sPro 终身99 -> 终身49
-                                        <strong>
-                                          <a href="#"><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CROj2YThp8jP_lYaG3NjMs4MEzJXGbvB&authKey=e6mEPsMw%2Fy2H4hsOqQCcS39acA3TOa2mPC7w7lMk2uXUtNY17eZOadTac78nyIAM&noverify=0&group_code=905930528" target="_blank">付款后点击加群，群号905930528</a></a>
-                                        </strong>
-                                    </li>
-									<li>红魔8Pro/8Pro+ 终身39.9 -> 终身29
-                                        <strong>
-                                          <a href="#"><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=6tuWUolf8c9lXDlv2zk32271BFlOyJUe&authKey=DIbNgAopVIc1OfQfkTYSI4LhcJpt15mHYrCd7wwK3ixmwvxh7Zqg2I%2B04TbPyHkF&noverify=0&group_code=618195184" target="_blank">付款后点击加群，群号618195184</a></a>
-                                        </strong>
-                                    </li>
-									<li>红魔8sPro/8sPro+ 终身39.9 -> 终身29
-                                        <strong>
-                                          <a href="#"><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=6tuWUolf8c9lXDlv2zk32271BFlOyJUe&authKey=DIbNgAopVIc1OfQfkTYSI4LhcJpt15mHYrCd7wwK3ixmwvxh7Zqg2I%2B04TbPyHkF&noverify=0&group_code=618195184" target="_blank">付款后点击加群，群号618195184</a></a>
-                                        </strong>
-                                    </li>
-									<br>
-									<li>联系客服：
-                                        <strong>
-                                          <a href="#"><a href="tencent://Message/?Uin=3604674017&websiteName=q-zone.qq.com&Menu=yes3604674017" target="_blank">QQ3604674017</a></a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>    
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">努比亚Z30 Pro第三方ROM</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/收款码.png" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>主移植ROM为MIUI和MYOS，回本后会附赠flyme等其他ROM</p>
-                                <ul class="list-inline item-details">
-                                    <li>努比亚Z30 Pro 费用80 （停止招收新用户）
-                                        <strong>
-                                          <a href="#"><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=QAUBluzgpOBJh5U6Sc3b59VT4bW53IAW&authKey=2SxGpoH9SmHMlb1CZWIV3QqF7mqwY1Tdqv5eiP%2FZgakVedHdCGJwNJ%2FVi3YsfxeS&noverify=0&group_code=857935064" target="_blank">付款后点击加群，群号857935064</a></a>
-                                        </strong>
-                                    </li>
-									<br>
-                                    <li>交流群:
-                                        <strong>
-                                          <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IExY8ZxRagKc8rZ4OVXw5ueMKbSsY4Nm&authKey=zi3re24AIsukNGE0Ya0kBfBPmAcVoUZKLYvogVITi3SUgdUnfUGxaEnuVB9pN5Sg&noverify=0&group_code=700984915" target="_blank">点击加入700984915</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">中兴AXON30Pro/30ultra/31Pro/红魔6R BL解锁</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/收款码.png" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=SKNKTLtCqKOX_ctE9264c7w5cj3YBnjH&authKey=CZH9C3dqp31ZAqsnjp6%2FdaFX1Mup10FYyB5e%2BXdQVyOpzYGWZniR3Bm86y1fV8sp&noverify=0&group_code=700984915">付款后加群联系群主：700984915</a>
-                                <ul class="list-inline item-details">
-                                    <li>中兴AXON30Pro/30ultra/31Pro/红魔6R BL解锁 费用50（停止招收新用户）</li>
-									<br>
-                                    <li>交流群:
-                                        <strong>
-                                          <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IExY8ZxRagKc8rZ4OVXw5ueMKbSsY4Nm&authKey=zi3re24AIsukNGE0Ya0kBfBPmAcVoUZKLYvogVITi3SUgdUnfUGxaEnuVB9pN5Sg&noverify=0&group_code=700984915" target="_blank">点击加入700984915</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                              </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>    
 
+                <!-- 功能列表 -->
+				<div class="info-block">
+					<h3><span class="icon">✨</span>核心功能</h3>
+					<div class="feature-grid">
+						<div class="feature-card">
+							<div class="feature-icon">💾</div>
+							<h4>分区刷入</h4>
+							<p class="feature-description">任意分区刷写</p>
+							<p class="feature-description">fastboot分区管理</p>
+						</div>
+						<div class="feature-card">
+							<div class="feature-icon">📦</div>
+							<h4>解包打包</h4>
+							<p class="feature-description">Android镜像文件解包/打包</p>
+							<p class="feature-description">解包payload magisk修补</p>
+						</div>
+						<div class="feature-card">
+							<div class="feature-icon">🔧</div>
+							<h4>高通9008</h4>
+							<p class="feature-description">读写任意分区</p>
+							<p class="feature-description">读分区表 生成9008包</p>
+						</div>
+						<div class="feature-card">
+							<div class="feature-icon">⚙️</div>
+							<h4>高级功能</h4>
+							<p class="feature-description">投屏 提取任意分区</p>
+							<p class="feature-description">高级重启 冻结/解冻APP</p>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+    </main>
+	
+	<section class="product-section" id="root">
+		<h2 class="section-title">红魔ROOT/ROM 大流量卡</h2>
+		<div class="product-grid">
+			<!-- 红魔全系列一键ROOT -->
+			<div class="product-card">
+				<div class="product-icon">
+					<img src="./image/magisk.jpg" alt="Magisk" class="icon-image">
+				</div>
+				<h3 class="product-title">红魔系列一键ROOT</h3>
+				<p class="product-description">支持红魔5-8全系ROOT，终身维护。</p>
+				<div class="product-price">￥29~49</div>
+				<button class="details-btn" data-modal="modal-root">查看详情</button>
+			</div>
 
-    <!-- Global javascript -->
-    <script src="js/jquery/jquery.min.js"></script>
-    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-easing/jquery.easing.min.js"></script>
-    <script src="js/counter/jquery.waypoints.min.js"></script>
-    <script src="js/counter/jquery.counterup.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script>
-        $(document).ready(function(){
+			<!-- 红魔6系列第三方ROM -->
+			<div class="product-card">
+				<div class="product-icon">
+					<img src="./image/redmagic.png" alt="红魔" class="icon-image">
+				</div>
+				<h3 class="product-title">红魔6系列第三方ROM</h3>
+				<p class="product-description">多种定制ROM，解锁更多功能。</p>
+				<div class="product-price">￥50</div>
+				<button class="details-btn" data-modal="modal-rom">查看详情</button>
+			</div>
 
-        $(".filter-b").click(function(){
-            var value = $(this).attr('data-filter');
-            if(value == "all")
-            { 
-                $('.filter').show('1000');
-            }
-            else
-            { 
-                $(".filter").not('.'+value).hide('3000');
-                $('.filter').filter('.'+value).show('3000');
-            }
-        });
-        
-        if ($(".filter-b").removeClass("active")) {
-          $(this).removeClass("active");
-        }
-        $(this).addClass("active");
-        });
+			<!-- 运营商官方大流量卡 -->
+			<div class="product-card">
+				<div class="product-icon">
+					<img src="./image/流量.jpg" alt="流量卡" class="icon-image">
+				</div>
+				<h3 class="product-title">运营商官方大流量卡</h3>
+				<p class="product-description">超值套餐，全国通用，立即办理。</p>
+				<div class="product-price">免费包邮到家</div>
+				<button class="details-btn" onclick="window.open('https://haokawx.lot-ml.com/Product/index/363935', '_blank')">查看详情</button>
+			</div>
+		</div>
+	</section>
 
-        // SKILLS
-        $(function () {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 2000
-            });
+	<!-- 模态框部分 -->
+	<div id="modal-root" class="modal">
+		<div class="modal-content">
+			<span class="close-btn">&times;</span>
+			<h3>红魔系列一键ROOT</h3>
+			<div class="qr-code-container">
+				<img src="./image/收款码.png" alt="ROOT服务二维码" class="qr-code">
+			</div>
+			<p class="product-note">价格在底部，扫码付款后申请加对应群</p>
+			<ul class="feature-list">
+				<li>买前必读!<br><br>在购买前请详细阅读以下说明<br>
+					1、除红魔8系列外，所有root工具均为免解锁工具，不影响指纹解锁，指纹支付等解锁会丢失的功能。红魔8系列可保留系统指纹。<br>
+					2、本人制作的均没有单版本工具，只接受终身root，且只制作官方正式版。<br>
+					3、不接受砍价，终身root在付费进群后不支持退款。<br>
+					4、只提供root服务，框架等内容请自行刷入。<br>
+					5、终身root一直维护到官方停止更新。<br>
+					6、本人（shaw）未与任何人合作制作工具,请不要上当受骗。<br>
+					7、终身root每台设备仅收费一次，后续不会有二次收费。<br>
+					8、不回答，不解释任何与刷入root无关的问题!例如刷入模块操作不当造成不开机等。<br>
+					9、不提供免费远程服务。<br>
+					10、最终解释权归本人(shaw）所有。<br></li>
+				<li>补充说明:除红魔6r免解锁需要清楚数据，红魔8系列需要解锁BL清数据之外，其他机型理论上均可保留数据，但由于官方发包与OTA差异或者面具本身bug，可能会造成清数据的问题。<br><br></li>
+				<li>2025年3月1日起 全系降价 付完申请加群<br>红魔5G/5S 终身55 -> 终身39 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=haO60MSsUvZ6NRANXfMCgswF2e-RuXlO&authKey=m7UoGRrvVymUjRXGlTjIsHVnRgh9JOzO0Ai80cOqwFDmlRTRCCB5mCQ0TI45r5dG&noverify=0&group_code=941298841" target="_blank">941298841</a><br>
+					红魔6/6Pro 终身55 -> 终身39 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=B5H_aPF7Ot4NXSaiXjGq8RpKmSR1tkiZ&authKey=jHMqNBHz4riwi%2FWFDKjZsjvPe4%2F6EyDF4Zba9i9pz5NjyUKjxozo4mrHBzVxAnqP&noverify=0&group_code=566727354" target="_blank">566727354</a><br>
+					红魔6r/6sPro 终身55 -> 终身39 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KsqAfe4NA359HEhrcPspsNazkSp4Nw8l&authKey=Uid647LkDQ8L%2FWkT1MC%2FcQa1fKmI68aj9IfFBHX24Y7JuHmrsD0WtaO9N5iP7pdG&noverify=0&group_code=864801579" target="_blank">864801579</a><br>
+					红魔7/7Pro 终身75 -> 终身49 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5ah7rPiAGS6ooEziJtvSSXO2lTTxXwDK&authKey=tflxuMGMcxmvbVMURLS0iVVnSK1n9gSCEufCmdt%2FHYr6%2FIZisb2nVtjkArwwj1Cd&noverify=0&group_code=703259424" target="_blank">703259424</a><br>
+					红魔7s/7sPro 终身99 -> 终身49 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CROj2YThp8jP_lYaG3NjMs4MEzJXGbvB&authKey=e6mEPsMw%2Fy2H4hsOqQCcS39acA3TOa2mPC7w7lMk2uXUtNY17eZOadTac78nyIAM&noverify=0&group_code=905930528" target="_blank">905930528</a><br>
+					红魔8全系 终身39.9 -> 终身29 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=6tuWUolf8c9lXDlv2zk32271BFlOyJUe&authKey=DIbNgAopVIc1OfQfkTYSI4LhcJpt15mHYrCd7wwK3ixmwvxh7Zqg2I%2B04TbPyHkF&noverify=0&group_code=618195184" target="_blank">618195184</a><br>
+				<li>联系客服：<a href="tencent://Message/?Uin=3604674017&websiteName=q-zone.qq.com&Menu=yes3604674017" target="_blank">3604674017</a>
+			</ul>
+		</div>
+	</div>
 
-        });
-    </script> 
+	<div id="modal-rom" class="modal">
+		<div class="modal-content">
+			<span class="close-btn">&times;</span>
+			<h3>红魔6系列第三方ROM</h3>
+			<img src="./image/收款码.png" alt="ROM服务二维码" class="qr-code">
+			<p class="product-note">扫码付款后申请加群</p>
+			<ul class="feature-list">
+				<li>主移植ROM为redmagicOS6.0，群内MIUI、flyme均为附赠</li>
+				<br>
+				<li>红魔6/6Pro/6sPro 费用50 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=9_8gZXmyuPjuyl-abvfmF9wvULXEIzCZ&authKey=4nkbflZgD%2BnX%2BvK66uVcY3XZC2GCiIxXmTK965kYezVeB0hsAgfeyi8bdWqjgiKc&noverify=0&group_code=829559005" target="_blank">829559005</a></li>
+				<br>
+				<li>交流群: <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IExY8ZxRagKc8rZ4OVXw5ueMKbSsY4Nm&authKey=zi3re24AIsukNGE0Ya0kBfBPmAcVoUZKLYvogVITi3SUgdUnfUGxaEnuVB9pN5Sg&noverify=0&group_code=700984915" target="_blank">700984915</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- 加入交流群部分 -->
+	<section class="group-section" id="group">
+		<h2 class="section-title">加入交流群</h2>
+		<div class="group-card">
+			<div class="group-content">
+				<h3 class="group-title">Android玩机交流群</h3>
+				<p class="group-description">点击链接加入：</p>
+				<ul class="group-links">
+					<li>Android玩机交流群1 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=4R3mJtAzXDHe4U_ZVsvVDj-GFYht-bTr&authKey=6mCljFnas%2FLathWFr%2FGwQjymEPZuVAhPDEsoL%2B6DQ%2FjT%2F2%2BL0bdtbxAzIdyHcjev&noverify=0&group_code=1082127643" target="_blank" rel="noopener noreferrer">1082127643 （已满）</a></li>
+					<li>Android玩机交流群2 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IExY8ZxRagKc8rZ4OVXw5ueMKbSsY4Nm&authKey=zi3re24AIsukNGE0Ya0kBfBPmAcVoUZKLYvogVITi3SUgdUnfUGxaEnuVB9pN5Sg&noverify=0&group_code=700984915" target="_blank" rel="noopener noreferrer">700984915 （已满）</a></li>
+					<li>Android玩机交流群3 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=1GRwZg5JVEV-CNaczOcRddpb-eckhnHx&authKey=%2BhNGBU%2F6EpCgVAwX%2FHDsS96TuACPC%2FuJXe5bqEvNwWNX5WWVakV8wKXxV5XGAXyf&noverify=0&group_code=816719293" target="_blank" rel="noopener noreferrer">816719293 （已满）</a></li>
+					<li>Android玩机交流群4 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=MwyROHIVit3iitl9wSvmRS7kUgL_AcVM&authKey=UrfRJcKst2aqt7ZHh%2FSWd9E56jVSlzPdr6nyQlopULkrE%2B9YMx2sV2Jl0IDYJ7Bc&noverify=0&group_code=584099985" target="_blank" rel="noopener noreferrer">584099985 （已满）</a></li>
+					<li>Android玩机交流群5 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=lEi_SuiGfQmTF5A4__m4STcnls5RwvfJ&authKey=fA80NGejfdF3ByVsb6dP2G5nQLpn3qzPuwO5e7ec3CvPgJ48nxPR6fp4I8fXU8Lx&noverify=0&group_code=659813802" target="_blank" rel="noopener noreferrer">659813802 （已满）</a></li>
+					<li>Android玩机交流群6 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ShnJC9Iv4Ug8pqu1MagVZ0AMSjMgeerL&authKey=FABWyx%2F5%2BhR%2F3FUvjKECzAGQbjQJ%2FxQGTS5fOfMXHa%2BQIZ%2FKaLd02wMp%2BdylRdXK&noverify=0&group_code=895516373" target="_blank" rel="noopener noreferrer">895516373 （空余）</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+    <script src="./js/script.js"></script>
+	<script src="./js/script_buy.js"></script>
+	<script src="./js/canvas.js"></script>
 </body>
-
 </html>

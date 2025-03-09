@@ -1,0 +1,140 @@
+/* 玩机工具箱 */
+.content {
+    padding: 2rem 5%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.tool-card {
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgba(59, 130, 246, 0.15);
+}
+
+.version-badge {
+    background: #3b82f6;
+    color: white;
+    padding: 0.3rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.info-block {
+    margin: 2rem 0;
+}
+
+.description {
+    color: #4b5563;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.info-card {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.platform-list li {
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    background: rgba(59, 130, 246, 0.08);
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.platform-list li:hover {
+    transform: translateX(5px);
+}
+
+.version-info {
+    text-align: center;
+}
+
+.download-btn {
+    display: inline-block;
+    background: #3b82f6;
+    color: white !important;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .content {
+        padding: 1rem;
+    }
+
+    .tool-card {
+        padding: 1.5rem;
+        margin: 0 0.5rem;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .download-btn {
+        width: 100%;
+    }
+}
+
+/* 分区刷入下方小字字体 */
+.feature-description {
+    font-size: 0.8rem; /* 调小字体 */
+    color: #6b7280; /* 浅灰色 */
+    line-height: 1.6; /* 增加行高 */
+    margin-top: 0.5rem; /* 调整间距 */
+}
